@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MvpSample</string>
+
+
+    <string name="error_internet_not_connected">Please check your internet connection or try again later.</string>
+    <string name="txt_retry">Retry</string>
+    <string name="error_invalid_email">Please enter valid email address.</string>
+    <string name="error_invalid_password">Please enter valid password.</string>
+
+    <!-- Sign in Screen -->
+    <string name="txt_sign_in">Sign In</string>
+    <string name="txt_hint_enter_email_id">Enter Email ID</string>
+    <string name="txt_hint_phone_no">Phone number</string>
+    <string name="txt_hint_enter_password">Password</string>
+
+</resources>

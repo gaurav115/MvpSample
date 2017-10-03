@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- font sizes -->
+    <dimen name="font_xxxlarge">24sp</dimen>
+    <dimen name="font_xxlarge">20sp</dimen>
+    <dimen name="font_xlarge">18sp</dimen>
+    <dimen name="font_large">16sp</dimen>
+    <dimen name="font_normal">14sp</dimen>
+    <dimen name="font_small">12sp</dimen>
+    <dimen name="font_xsmall">10sp</dimen>
+
+
+    <!-- typical spacing between two views -->
+    <dimen name="spacing_xx_huge">100dp</dimen>
+    <dimen name="spacing_x_huge">80dp</dimen>
+    <dimen name="spacing_huge">60dp</dimen>
+    <dimen name="spacing_xlarge">40dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_medium">20dp</dimen>
+    <dimen name="spacing_normal">14dp</dimen>
+    <dimen name="spacing_small">10dp</dimen>
+    <dimen name="spacing_xsmall">8dp</dimen>
+    <dimen name="spacing_tiny">4dp</dimen>
+    <dimen name="spacing_very_tiny">2dp</dimen>
+
+    <!-- typical sizes of views -->
+    <dimen name="button_height_tall">60dp</dimen>
+    <dimen name="button_height_normal">40dp</dimen>
+    <dimen name="button_height_short">35dp</dimen>
+    <dimen name="button_height_small">24dp</dimen>
+
+    <!--material edit text-->
+    <dimen name="default_padding_top">8dp</dimen>
+    <dimen name="default_padding_bottom">8dp</dimen>
+    <dimen name="inner_padding_left">0dp</dimen>
+    <dimen name="inner_padding_right">0dp</dimen>
+    <dimen name="floating_label_text_size">12sp</dimen>
+    <dimen name="bottom_text_size">12sp</dimen>
+    <dimen name="inner_components_spacing">8dp</dimen>
+    <dimen name="bottom_ellipsis_height">4dp</dimen>
+    <dimen name="post_image_height">250dp</dimen>
+    <dimen name="empty_nav_view_height">25dp</dimen>
+    <dimen name="elevation_header">4dp</dimen>
+    <dimen name="standard_field_height">50dp</dimen>
+    <dimen name="screen_margin">12dp</dimen>
+    <dimen name="nav_drawer_width">250dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+
+    <dimen name="button_radius">40dp</dimen>
+    <dimen name="button_small_height">35dp</dimen>
+
+    <!-- Progress Bar -->
+    <dimen name="progress_bar_size">70dp</dimen>
+
+
+</resources>
