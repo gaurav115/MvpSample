@@ -23,7 +23,7 @@ public class EmailPasswordValidatorTest {
     }
 
     @Test
-    public void passwordValidator_InvalidPassword_returnsFalse() throws Exception {
+    public void passwordValidator_invalidPassword_returnsFalse() throws Exception {
         Assert.assertEquals(false, ValidationUtils.checkPassword("   "));
     }
 
