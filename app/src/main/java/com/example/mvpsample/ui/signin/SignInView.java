@@ -10,5 +10,8 @@ import com.example.mvpsample.ui.base.BaseView;
 public interface SignInView extends BaseView {
 
     void showErrorMessage(int resId);
+
     void signInSuccess();
+
+    void showLoginError(String error);
 }

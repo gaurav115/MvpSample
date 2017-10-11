@@ -1,5 +1,6 @@
 package com.example.mvpsample.ui.signin;
 
+import com.example.mvpsample.network.RestClient;
 import com.example.mvpsample.ui.base.BasePresenterImpl;
 
 /**
@@ -13,7 +14,7 @@ public class SignInPresenterImpl extends BasePresenterImpl implements SignInPres
 
     SignInPresenterImpl(SignInView signInView) {
         mSignInView = signInView;
-        mSignInService = new SignInServiceImpl();
+        mSignInService = new SignInServiceImpl(RestClient.getRestService());
 
     }
 
@@ -41,6 +42,13 @@ public class SignInPresenterImpl extends BasePresenterImpl implements SignInPres
             public void onLoginSuccess() {
                 if (mSignInView != null) {
                     mSignInView.signInSuccess();
+                }
+            }
+
+            @Override
+            public void onLoginFail(final String error) {
+                if (mSignInView != null) {
+                    mSignInView.showLoginError(error);
                 }
             }
         });

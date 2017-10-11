@@ -13,6 +13,8 @@ public interface SignInService {
         void onPasswordError(int resId);
 
         void onLoginSuccess();
+
+        void onLoginFail(String error);
     }
 
     void login(String email, String password, OnLoginListener loginListener);

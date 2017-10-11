@@ -62,6 +62,14 @@ public class SignInActivity extends BaseActivity implements View.OnClickListener
         // todo launch main / home
     }
 
+    @Override
+    public void showLoginError(final String error) {
+        new AlertDialog.Builder(this)
+                .setMessage(error)
+                .setPositiveButton(android.R.string.ok, null)
+                .show();
+    }
+
 
     @Override
     public void onClick(final View v) {
