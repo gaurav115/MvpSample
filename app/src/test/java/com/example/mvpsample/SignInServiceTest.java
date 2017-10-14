@@ -51,7 +51,7 @@ public class SignInServiceTest {
     }
 
     @Test
-    public void signInService_invalidEmail_callsOnEmailError() throws Exception {
+    public void signInService_invalidEmail_callsOnEmailError() {
 
         SignInServiceImpl signInService = new SignInServiceImpl(mRestService);
         signInService.login("aioo", "123456", onLoginListener);
