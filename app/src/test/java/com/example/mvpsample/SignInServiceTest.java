@@ -83,7 +83,7 @@ public class SignInServiceTest {
     }
 
     @Test
-    public void signInService_invalidEmailPassword_callsOnLoginSuccess() throws Exception {
+    public void signInService_invalidEmailPassword_callsOnLoginFail() throws Exception {
 
         mockWebServer.enqueue(new MockResponse()
                 .setResponseCode(400)
