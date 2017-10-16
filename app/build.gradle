@@ -21,12 +21,13 @@ android {
 
     productFlavors {
         QA {
-            /*tasks.whenTaskAdded { task ->
+            tasks.whenTaskAdded { task ->
                 if (task.name == 'assembleQADebug')
                     task.dependsOn('test')
-            }*/
+            }
         }
         DEV {
+            // other relevant properties go here
         }
     }
 }
